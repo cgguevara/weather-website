@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Places</title>
+        <link rel="icon" href="/img/weather.png">
+         <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="css/styles.css">
+        
+    </head>
+    <body>
+        <div class="main-content">
+            {{>header}}
+            <p>Search for a place in a City!</p>
+            <form>
+                <input placeholder="Place">
+                <input placeholder="City">
+                <button type="submit" id="submitPlaces">Search</button>
+            </form>
+            <p id="message-1"></p>
+            <p id="message-2"></p>
+        </div>
+        
+       {{>footer}}
+       <script src="js/appPlaces.js"></script>
+    </body>
+    
+</html>
